@@ -12,29 +12,24 @@ description: Jekyll Me is a Jekyll starter template built by Seth Warburton of i
 {% endif %}
 <section>
     <article>
-       <h1>Providing freelance and private support to schools and families, helping children to engage in education.</h1>
+        <header><h1>Acorn Holistic Solutions </h1></header>
+        <p>Providing freelance and private support to schools and families in helping children to engage in education and reach their true potential.</p>
 </p>
-<p>It can be very difficult to support children, young people and their families to actively engage in education and to help children develop a positive commitment to learning. In these difficult times of austerity and efficiency savings, Schools and families are finding that many of the services that were designed to help them are either being decommissioned, criteria and thresholds made more demanding or some services now present a significant cost to the school budget.</p>
-<blockquote>At Acorn Holistic Solutions, we passionately believe that everyone should have the opportunity to reach their potential.</blockquote>
-<p>In practical terms, Schools are now having to deal with many non-academic issues with very little help and support. Through necessity, Schools are being encouraged to become more pro-active and innovative in how they work with the behavioural, emotional and social difficulties presented by their pupils, and their families.</p>
+<h2>At <em>Acorn Holistic Solutions</em>, we passionately believe that everyone should have the opportunity to reach their potential.</h2>
+<p>It can be very difficult to support children, young people and their families to actively engage in education and to help children develop a positive commitment to learning. In these difficult times of austerity and efficiency savings, Schools and families are finding that many of the services that were designed to help them are either being decomissioned, criteria and thresholds made more demanding or some services now coming at a significant cost. In practical terms, Schools are now having to deal with many non-academic issues with very little help and support. Through necessity, Schools are being encouraged to become more pro-active and innovative in how they work with the behavioural, emotional and social difficulties presented by their pupils, and their families.</p>
 <p>
 <h2>Addressing emerging issues before they become entrenched problems</h2>
 <p>
-<p>The objective of Acorn Holistic Solutions is have a one stop shop resource for all non academic requirements of students and their families. Offering a bespoke service dependent on need, <em>Acorn Holistic Solutions</em> joins up and integrates different services such as family outreach, targeted support and education welfare – to provide an effective early intervention service specific to your school or child.</p>
+<p>The objective of the Green Acorn Children services is have a one stop shop resource for all non academic requirements of students and their families. Offering a bespoke service dependent on need, <em>Acorn Holistic Solutions</em> joins up and integrates different services such as family outreach, targeted support and education welfare – to provide an effective early intervention service specific to your school or child.</p>
 <h2>Services available:</h2>
         <p>
         <ol></ol>
-        <li>Behaviour management</li>
+        <li>Behaviour management </li>
         <li>Attendance monitoring and enforcement</li>
         <li>Resource procurement and development</li>
         <li>Project managment
-        <li>Group work and facilitation
+        <li>Group work and facilitation.
         <p>
-<h2>We work with:</h2>
-<p>
-<ol></ol>
-        <li>Schools; we support individual Schools, Academies, and those settings that are part of a cluster, federation, trust or wider partnership.</li>
-<li>Families; we can also support parents and carers of 11-18 year old children whose parents feel that they could benefit from our support to help them overcome their present difficulties and inspire them to reach their full potential</li>
 <p>
 </article>
 </section>
@@ -43,6 +38,7 @@ description: Jekyll Me is a Jekyll starter template built by Seth Warburton of i
     {% for post in site.posts limit:4 %}
     <article class="article-intro">
         <header><h1><a href="{{ post.url }}">{{ post.title }}</a></h1></header>
+        <footer>{{ post.date | date: "%B %e, %Y" }}</footer>
     </article>
     {% endfor %}
 </section>
